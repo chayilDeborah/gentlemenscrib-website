@@ -67,7 +67,7 @@ margin-left: 30px;
 `;
 export const NavbarText = styled.div`
 background-color: #0B0D17;
-height: 50px;
+height: 50%;
 display: flex;
 justify-content: center;
 `;

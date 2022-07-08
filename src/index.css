@@ -1,5 +1,38 @@
+@font-face {
+  font-family: rische;
+  font-weight: 300;
+  src: url('./assets/TextFonts.net_rische-font/RischeLight.otf');
+}
+
+@font-face {
+  font-family: rische;
+  font-weight: 400;
+  src: url('./assets/TextFonts.net_rische-font/RischeRegular.otf');
+}
+
+@font-face {
+  font-family: rische;
+  font-weight: 500;
+  src: url('./assets/TextFonts.net_rische-font/RischeMedium.otf');
+}
+
+@font-face {
+  font-family: rische;
+  font-weight: 600;
+  src: url('./assets/TextFonts.net_rische-font/RischeSemibold.otf');
+}
+
+
+@font-face {
+  font-family: rische;
+  font-weight: 700;
+  src: url('./assets/TextFonts.net_rische-font/RischeBold.otf');
+}
+
 
 body {
   margin: 0;
   padding: 0;
 }
+
+

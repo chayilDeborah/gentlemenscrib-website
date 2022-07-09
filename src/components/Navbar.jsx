@@ -10,6 +10,7 @@ import person from '../assets/person.png';
 import cancel from '../assets/cancel.png';
 
 
+
 export const Navbar = () => {
     return (
         <Container>

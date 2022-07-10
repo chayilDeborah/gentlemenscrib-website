@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components';
 import techbro from '../assets/techbro.png';
-import leftArrow from '../assets/leftArrow.png';
+import downarrow from '../assets/downarrow.png';
 
 const TechBroContainer = styled.div`
-flex: 1;
+
 
 `;
 const TechBroWrapper = styled.div`
@@ -28,13 +28,12 @@ z-index: 2;
 `;
 const OrderList = styled.div`
 // display: flex;
-margin: 24px 0 0 100px;
+margin: 0 0 0 100px;
 width: 380px;
 height: 568px;
 overflow: auto;
 z-index: 2;
-
-.first-child{
+&:first-child{
   margin-top: 0;
 }
 `;
@@ -64,22 +63,52 @@ margin-top: 10px;
 const ScrollText = styled.div`
 font-family: 'Montserrat', sans-serif;
 position: absolute;
-width: 325px;
+width: 370px;
 height: 60px;
 left: 100px;
 top: 943px;
-// background-color: team,l;
+// background-color: teal;
 text-align:center;
 align-items:center;
 justify-content: center;
 font-size: 18px;
 display: flex;
-span{
-  
-}
+cursor: pointer;
 `;
 const ScrollIcon = styled.img`
 flex: 1;
+margin: 5px 0 0 12px;
+`;
+const PriceContainer = styled.div`
+background: #E28F1D;
+width: 289px;
+height: 58px;
+position: absolute;
+margin-top: 56px;
+margin-left: 141px;
+border-radius: 35px;
+`;
+const Price = styled.div`
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+align-items:center;
+justify-content: center;
+display: flex;
+padding-top: 18px;
+color: #FFFFFF;
+
+cursor: pointer;
+// margin-bottom: 18px;
+`;
+const Footer = styled.div`
+background-color: #0B0D17;
+height: 460px;
+margin-top: 135px;
+
 `;
 const TechBro = () => {
   return (
@@ -89,8 +118,8 @@ const TechBro = () => {
         <TechBroTitle>TECH BRO STARTER</TechBroTitle>
       </TechBroWrapper>
       <OrderList>
-        <ListWrap className='first-child'>
-          <Listing>2</Listing>
+        <ListWrap>
+          <Listing style={{marginTop:0}}>2</Listing>
           <ListItem>Jean(s)</ListItem>
         </ListWrap>
         <ListWrap>
@@ -121,16 +150,16 @@ const TechBro = () => {
           <Listing>3</Listing>
           <ListItem>Designer tees</ListItem>
         </ListWrap>
-        <ListWrap>
-          <Listing>3</Listing>
-          <ListItem>Designer tees</ListItem>
-        </ListWrap>
-        
-        
-          <ScrollText>Scroll for more<span><ScrollIcon src={leftArrow} alt='leftarrow' /></span></ScrollText>
-          
-       
+        <ScrollText>Scroll for more<span><ScrollIcon src={downarrow} alt='downarrow' /></span></ScrollText>
       </OrderList>
+      <PriceContainer>
+        <Price>Order Pack for N170000</Price>
+      </PriceContainer>
+      <Footer>
+        {/* <FooterContainer>
+
+        </FooterContainer> */}
+      </Footer>
     </TechBroContainer>
   )
   }

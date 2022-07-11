@@ -1,7 +1,8 @@
 import React from "react";
 import { Footer } from "../components/Footer";
 import Navbar from "../components/Navbar";
-import Gym from "./Gym";
+import Owanbe from '../components/Owanbe';
+// import Gym from "./Gym";
 // import TechBro from "./TechBro";
 // import WorkFromHome from "./WorkFromHome";
 
@@ -11,7 +12,9 @@ const Home = () => {
             <Navbar /> 
             {/* <TechBro /> */}
             {/* <WorkFromHome /> */}
-            <Gym />
+            {/* <Gym /> */}
+            <Owanbe />
+
             <Footer />
         </div>
     )

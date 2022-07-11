@@ -55,7 +55,7 @@ export const Footer = () => {
         </FooterContainer>
         <FooterBreak />
         <LastSection>
-          <FooterEnd>© 2020 Pepperest. All rights reserved</FooterEnd>
+          <FooterEnd>© 2022 Gentlemen'scrib. All rights reserved</FooterEnd>
           <FooterEnd>
             <LogoContainer>
               <LogoTitle>GENTLEMEN'S CRIB</LogoTitle>

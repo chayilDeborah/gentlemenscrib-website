@@ -41,7 +41,6 @@ cursor: pointer;
   padding-left: 8px;
   color: #E28F1D;
 }
-
 `;
 
 export const Link = styled.a`

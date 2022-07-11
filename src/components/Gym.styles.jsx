@@ -1,28 +1,30 @@
 import styled from "styled-components";
 
-export const WorkFromHomeContainer = styled.div`
+export const GymContainer = styled.div`
 
 `;
-export const WorkFromHomeWrapper = styled.div`
+export const GymWrapper = styled.div`
 display: flex;
 position: relative;
 `;
 
-export const WorkFromHomeImage = styled.img`
+export const GymImage = styled.img`
 // width: 57%;
+height: 1000px;
+width: 1260px;
 position: absolute;
-margin-left: 75px;
-margin-top: 120px;
-// width: 1480px;
-// height: 824px;
+margin-left: 70px;
+margin-top: -55px;
 `;
 
-export const WorkFromHomeTitle = styled.p`
+export const GymTitle = styled.p`
 font-family: rische;
 font-weight: 700;
 font-size: 100px;
 // width: 50%; 
 margin: 0 0 0 100px;
+width: 626px;
+height: 240px;
 z-index: 2;
 `;
 

@@ -1,4 +1,5 @@
-import Home from './pages/Home';
+import React from 'react';
+import Home from './components/Home';
 import './App.css';
 // import TechBro from './pages/TechBro';
 

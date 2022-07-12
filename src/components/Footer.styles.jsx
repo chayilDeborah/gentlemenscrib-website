@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const FooterWrapper = styled.div`
 background-color: #0B0D17;
+// background-color: teal;
 height: 420px;
 margin-top: 135px;
 
@@ -19,8 +20,8 @@ grid-gap: 20px;
 
 export const FooterColumn = styled.div`
 display: flex;
-flex-direction: column;
-transition: all 0.3s ease;
+  flex-direction: column;
+  transition: all 0.3s ease;
 
 `;
 export const FooterHeadings = styled.p`
@@ -36,10 +37,6 @@ text-align: left;
 color: #F4F5F7;
 cursor: pointer;
 
-&:hover {
-  padding-left: 8px;
-  color: #E28F1D;
-}
 `;
 
 export const Link = styled.a`
@@ -52,40 +49,14 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0em;
 &:hover {
-  padding-left: 8px;
   color: #E28F1D;
 }
 `;
-export const Socials = styled.div`
-display: flex;
-width: 256px;
-height: 32px;
-justify-content: space-between;
-margin: 0 0 12px 85px;
 
-&:hover {
-  color: #E28F1D;
-}
-
+export const Icon = styled.i`
+// font-size: 18px;
+// border: 5px solid red;
 `;
-
-export const SocialLink = styled.a`
-background-color: rgba(255,255,255,0.2);
-color: #FFFFFF;
-height: 32px;
-width: 32px;
-text-align: center;
-line-height: 40px;
-border-radius: 50%;
-color: #ffffff;
-transition: all 0.5s ease;
-
-  &:hover {
-    color: #E28F1D;
-  }
-
-`;
-
 export const FooterBreak = styled.hr`
 color: red;
 margin-top: 46px;
@@ -106,20 +77,13 @@ color: #FFFFFF;
 `;
 export const FooterEnd = styled.div`
 display: flex;
-
-&:last-child {
-  cursor: pointer;
-
-  &:hover {
-    color: #E28F1D;
-  }
-}
 `;
 export const LogoContainer = styled.div`
 display: flex;
 margin: 0!important;
 `;
 export const LogoTitle = styled.div`
+// margin: 45px 0 0 50px;
 font-size: 20px;
 line-height: 24px;
 color: #FFFFFF;
@@ -128,6 +92,7 @@ height: 21px;
 font-family: 'Montserrat', sans-serif;
 `;
 export const WhiteArm = styled.img`
+// margin: 47px 0 0 0;
 width: 25px;
 height: 18px;
 color: #FFFFFF;

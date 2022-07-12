@@ -12,15 +12,14 @@ import { OwanbeContainer,
   Price } from './Owanbe.styles';
   
 import owanbe from '../assets/owanbe.png';
-// import downarrow from '../assets/downarrow.png';
-// import { Icon } from '../components/icons/icons';
+
 
 const Owanbe = () => {
   return (
     <OwanbeContainer>
       <OwanbeWrapper>
         <OwanbeImage src={owanbe} alt='image'/>
-        <OwanbeTitle>OWANBE STARTER 
+        <OwanbeTitle>OWAMBE STARTER 
 PACK</OwanbeTitle>
       </OwanbeWrapper>
       <OrderList>

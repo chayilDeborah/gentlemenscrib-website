@@ -6,7 +6,8 @@ import {
     FooterColumn, 
     FooterHeadings, 
     Link, 
-    Icon, 
+    Socials,
+    SocialLink,
     FooterBreak, 
     LastSection, 
     FooterEnd,
@@ -17,8 +18,6 @@ import {
 } from './Footer.styles';
 
 import whiteArmchair from '../assets/whiteArmchair.png';
-import instagram from '../assets/instagram.png';
-import twitter from '../assets/twitter.png';
 
 export const Footer = () => {
     return (
@@ -44,10 +43,15 @@ export const Footer = () => {
             </FooterColumn>
             <FooterColumn>
               <FooterHeadings>Get In Touch</FooterHeadings>
-              <Link style={{height:15, border: "5px", color: "E28F1D"}}>
-              <Icon src={instagram} alt='instagram' />
-              <Icon src={twitter} alt='twitter' />
-              </Link>
+              {/* <Link> */}
+                <Socials>
+                    <SocialLink href="#"><ion-icon name="logo-instagram"></ion-icon></SocialLink>
+                    <SocialLink href="#"><ion-icon name="logo-twitter"></ion-icon></SocialLink>
+                    <SocialLink href="#"><ion-icon name="logo-whatsapp"></ion-icon></SocialLink>
+                    <SocialLink href="#"><ion-icon name="logo-facebook"></ion-icon></SocialLink>
+                    <SocialLink href="#"><ion-icon name="logo-linkedin"></ion-icon></SocialLink>
+                </Socials>
+              {/* </Link> */}
               <Link href="#">support@gentlemenscrib.com</Link>
               <Link href="#">Block 2, Flat 6, Baba Omojola Estate, Bagada, Lagos</Link>
             </FooterColumn>

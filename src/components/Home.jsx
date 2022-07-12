@@ -17,6 +17,8 @@ const Home = () => {
             {/* <Owanbe /> */}
             <Student />
 
+            <PackNav />
+
             <Footer />
         </div>
     )

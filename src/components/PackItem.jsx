@@ -5,7 +5,7 @@ import '../css/PackNav.css';
 
 const PackItem = (props) => {
     return (
-        <a className='PackItem' id={props.id}>
+        <a className='PackItem' id={props.id} href={props.href}>
             {props.children}
         </a>
     )

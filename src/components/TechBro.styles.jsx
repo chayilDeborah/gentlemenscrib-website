@@ -69,7 +69,7 @@ height: 60px;
 left: 100px;
 top: 943px;
 // background-color: teal;
-text-align:center;
+// text-align:center;
 align-items:center;
 justify-content: center;
 font-size: 18px;

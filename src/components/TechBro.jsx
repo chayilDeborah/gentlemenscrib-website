@@ -57,7 +57,7 @@ const TechBro = () => {
           <Listing>3</Listing>
           <ListItem>Designer tees</ListItem>
         </ListWrap>
-        <ScrollText>Scroll for more<span><ScrollIcon src={downarrow} alt='downarrow' /></span></ScrollText>
+        <ScrollText>Scroll for more<span style={{width: "20px", marginTop: "18px"}}><ScrollIcon src={downarrow} alt='downarrow' /></span></ScrollText>
       </OrderList>
       <PriceContainer>
         <Price>Order Pack for N170000</Price>

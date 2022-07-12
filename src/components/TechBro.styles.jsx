@@ -25,7 +25,6 @@ z-index: 2;
 `;
 
 export const OrderList = styled.div`
-// display: flex;
 margin: 0 0 0 100px;
 width: 380px;
 height: 568px;
@@ -68,8 +67,6 @@ width: 370px;
 height: 60px;
 left: 100px;
 top: 943px;
-// background-color: teal;
-// text-align:center;
 align-items:center;
 justify-content: center;
 font-size: 18px;
@@ -105,5 +102,4 @@ display: flex;
 padding-top: 18px;
 color: #FFFFFF;
 cursor: pointer;
-// margin-bottom: 18px;
 `;

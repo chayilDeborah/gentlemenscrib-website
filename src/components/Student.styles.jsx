@@ -9,11 +9,10 @@ position: relative;
 `;
 
 export const StudentImage = styled.img`
-// width: 57%;
 position: absolute;
 width: 1051px;
 height: 927px;
-margin-left: 404px;
+margin-left: 32%;
 margin-top: -4px;
 `;
 
@@ -21,7 +20,6 @@ export const StudentTitle = styled.p`
 font-family: rische;
 font-weight: 700;
 font-size: 100px;
-// width: 50%; 
 margin: 0 0 0 100px;
 width: 790px;
 height: 240px;
@@ -29,7 +27,6 @@ z-index: 2;
 `;
 
 export const OrderList = styled.div`
-// display: flex;
 margin: 0 0 0 100px;
 width: 380px;
 height: 568px;
@@ -72,7 +69,6 @@ width: 370px;
 height: 60px;
 left: 100px;
 top: 943px;
-// background-color: teal;
 text-align:center;
 align-items:center;
 justify-content: center;
@@ -83,7 +79,7 @@ cursor: pointer;
 
 export const ScrollIcon = styled.img`
 flex: 1;
-margin: 5px 0 0 12px;
+margin: 30px 0 0 12px;
 `;
 
 export const PriceContainer = styled.div`
@@ -109,5 +105,4 @@ display: flex;
 padding-top: 18px;
 color: #FFFFFF;
 cursor: pointer;
-// margin-bottom: 18px;
 `;

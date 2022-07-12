@@ -9,7 +9,6 @@ position: relative;
 `;
 
 export const OwanbeImage = styled.img`
-// width: 57%;
 position: absolute;
 margin-left: 31%;
 margin-top: -69px;
@@ -21,7 +20,6 @@ export const OwanbeTitle = styled.p`
 font-family: rische;
 font-weight: 700;
 font-size: 100px;
-// width: 50%; 
 width: 992px;
 height: 240px;
 margin: 0 0 0 100px;
@@ -29,7 +27,6 @@ z-index: 2;
 `;
 
 export const OrderList = styled.div`
-// display: flex;
 margin: 0 0 0 100px;
 width: 380px;
 height: 568px;
@@ -89,5 +86,4 @@ display: flex;
 padding-top: 18px;
 color: #FFFFFF;
 cursor: pointer;
-// margin-bottom: 18px;
 `;

@@ -9,25 +9,20 @@ position: relative;
 `;
 
 export const WorkFromHomeImage = styled.img`
-// width: 57%;
 position: absolute;
-margin-left: 75px;
+margin-left: 10%;
 margin-top: 120px;
-// width: 1480px;
-// height: 824px;
 `;
 
 export const WorkFromHomeTitle = styled.p`
 font-family: rische;
 font-weight: 700;
 font-size: 100px;
-// width: 50%; 
 margin: 0 0 0 100px;
 z-index: 2;
 `;
 
 export const OrderList = styled.div`
-// display: flex;
 margin: 0 0 0 100px;
 width: 380px;
 height: 568px;
@@ -70,7 +65,6 @@ width: 370px;
 height: 60px;
 left: 100px;
 top: 943px;
-// background-color: teal;
 text-align:center;
 align-items:center;
 justify-content: center;
@@ -81,7 +75,7 @@ cursor: pointer;
 
 export const ScrollIcon = styled.img`
 flex: 1;
-margin: 5px 0 0 12px;
+margin: 30px 0 0 12px;
 `;
 
 export const PriceContainer = styled.div`
@@ -107,5 +101,4 @@ display: flex;
 padding-top: 18px;
 color: #FFFFFF;
 cursor: pointer;
-// margin-bottom: 18px;
 `;

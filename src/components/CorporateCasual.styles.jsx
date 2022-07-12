@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CorporateCasualContainer = styled.div`
-
+flex: 1;
 `;
 export const CorporateCasualWrapper = styled.div`
 display: flex;
@@ -9,17 +9,18 @@ position: relative;
 `;
 
 export const CorporateCasualImage = styled.img`
-width: 57%;
 position: absolute;
-margin-left: 31%;
-margin-top: 86px;
+margin-left: 32%;
+margin-top: 0px;
+height: 944px;
+width: 924px;
+    
 `;
 
 export const CorporateCasualTitle = styled.p`
 font-family: rische;
 font-weight: 700;
 font-size: 100px;
-// width: 50%; 
 margin: 0 0 0 100px;
 width: 652px;
 height: 240px;
@@ -70,8 +71,6 @@ width: 370px;
 height: 60px;
 left: 100px;
 top: 943px;
-// background-color: teal;
-// text-align:center;
 align-items:center;
 justify-content: center;
 font-size: 18px;
@@ -99,14 +98,7 @@ font-family: Montserrat;
 font-size: 18px;
 font-weight: 500;
 line-height: 22px;
-letter-spa<ListWrap>
-<Listing>1</Listing>
-<ListItem>Crocs</ListItem>
-</ListWrap>
-<ListWrap>
-<Listing>3</Listing>
-<ListItem>Designer tees</ListItem>
-</ListWrap>cing: 0em;
+letter-spacing: 0em;
 text-align: center;
 align-items:center;
 justify-content: center;
@@ -114,5 +106,4 @@ display: flex;
 padding-top: 18px;
 color: #FFFFFF;
 cursor: pointer;
-// margin-bottom: 18px;
 `;

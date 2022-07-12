@@ -74,7 +74,6 @@ background-color: rgba(255,255,255,0.2);
 color: #FFFFFF;
 height: 32px;
 width: 32px;
-// opacity: 0.1;
 text-align: center;
 line-height: 40px;
 border-radius: 50%;
@@ -86,10 +85,7 @@ transition: all 0.5s ease;
   }
 
 `;
-export const Icon = styled.i`
-// font-size: 18px;
-// border: 5px solid red;
-`;
+
 export const FooterBreak = styled.hr`
 color: red;
 margin-top: 46px;
@@ -124,7 +120,6 @@ display: flex;
 margin: 0!important;
 `;
 export const LogoTitle = styled.div`
-// margin: 45px 0 0 50px;
 font-size: 20px;
 line-height: 24px;
 color: #FFFFFF;
@@ -133,7 +128,6 @@ height: 21px;
 font-family: 'Montserrat', sans-serif;
 `;
 export const WhiteArm = styled.img`
-// margin: 47px 0 0 0;
 width: 25px;
 height: 18px;
 color: #FFFFFF;

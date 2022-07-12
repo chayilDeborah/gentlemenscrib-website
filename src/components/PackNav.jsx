@@ -17,9 +17,9 @@ const PackNav = (props) => {
             <PackItem id="techbro" onClick={GlowUp} href="/">Tech Bro</PackItem>
             <PackItem id="workfromhome" href="/workfromhome">Work from home</PackItem>
             <PackItem id="gym" href="/gym">Gym</PackItem>
-            <PackItem id="owanbe" href="/owanbe">Owanbe</PackItem>
+            <PackItem id="owanbe" href="/owanbe">Owambe</PackItem>
             <PackItem id="student" href="/student">Student</PackItem>
-            <PackItem id="corporate" href="/corporate">Corporate</PackItem>
+            <PackItem id="corporatecasual" href="/corporatecasual">Corporate</PackItem>
             <PackItem id="partygoer" href="/partygoer">Party</PackItem>
             <PackItem id="rainingseason" href="/rainingseason">Raining</PackItem>
             <PackItem id="datenightspecial" href="/datenightspecial">Date Night</PackItem>

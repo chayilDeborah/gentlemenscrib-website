@@ -15,7 +15,6 @@ import { CorporateCasualContainer,
   
 import corporate from '../assets/corporate.png';
 import downarrow from '../assets/downarrow.png';
-// import { Icon } from '../components/icons/icons';
 
 const CorporateCasual = () => {
   return (

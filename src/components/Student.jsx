@@ -58,7 +58,7 @@ STARTER PACK</StudentTitle>
           <Listing>1</Listing>
           <ListItem>Loafers</ListItem>
         </ListWrap>
-        <ScrollText>Scroll for more<span><ScrollIcon src={downarrow} alt='downarrow' /></span></ScrollText>
+        <ScrollText>Scroll for more<span style={{width: "0px"}}><ScrollIcon src={downarrow} alt='downarrow' /></span></ScrollText>
       </OrderList>
       <PriceContainer>
         <Price>Order Pack for N170000</Price>

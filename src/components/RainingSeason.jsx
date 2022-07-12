@@ -15,14 +15,14 @@ import { RainingSeasonContainer,
   
 import raining from '../assets/raining.png';
 import downarrow from '../assets/downarrow.png';
-// import { Icon } from '../components/icons/icons';
 
 const RainingSeason = () => {
   return (
     <RainingSeasonContainer>
       <RainingSeasonWrapper>
         <RainingSeasonImage src={raining} alt='image'/>
-        <RainingSeasonTitle>TECH BRO STARTER</RainingSeasonTitle>
+        <RainingSeasonTitle>RAINING SEASON
+PACK</RainingSeasonTitle>
       </RainingSeasonWrapper>
       <OrderList>
         <ListWrap>

@@ -1,0 +1,31 @@
+.PackNav {
+    position: absolute;
+    top: 258px;
+    right: 50px;
+
+    width: 187px;
+    height: max-content;
+    text-align: center;
+
+    display: block;
+    font-family: 'Montserrat';
+}
+
+span {
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+a {
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    color: #18191F;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 20px;
+}

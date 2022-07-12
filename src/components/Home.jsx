@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Thanks to the index.js file I wrote earlier you can call all the components in a single line
-import {Gym, Owanbe, Navbar, TechBro, PackNav, WorkFromHome, Footer} from '../components' 
+import {Gym, Owanbe, Navbar, TechBro, PackNav, WorkFromHome, Footer} from '../components'; 
 
 import '../css/PackNav.css';
 // import Gym from "./Gym";

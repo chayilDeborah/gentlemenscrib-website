@@ -19,8 +19,8 @@ grid-gap: 20px;
 
 export const FooterColumn = styled.div`
 display: flex;
-  flex-direction: column;
-  transition: all 0.3s ease;
+flex-direction: column;
+transition: all 0.3s ease;
 
 `;
 export const FooterHeadings = styled.p`

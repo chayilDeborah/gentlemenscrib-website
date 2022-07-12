@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useState} from "react";
 
-import {Container, Wrapper, LogoContainer, LogoTitle, Arm, Center, Product, MenuItem, Arrow, IconsContainer, SearchIcon, CartIcon, PersonIcon, NavbarText, NavText, NavTextIcon} from './Navbar.styles';
+import {Container, 
+    Wrapper, 
+    LogoContainer, 
+    LogoTitle, 
+    Arm, 
+    Center, 
+    Product, 
+    MenuItem, 
+    Arrow, 
+    IconsContainer, 
+    SearchIcon, 
+    CartIcon, 
+    PersonIcon, 
+    NavbarText, 
+    NavText, 
+    NavTextIcon} from './Navbar.styles';
 
 import armchair from '../assets/armchair.png';
 import arrow from '../assets/arrow.png';
@@ -12,6 +27,15 @@ import cancel from '../assets/cancel.png';
 
 
 export const Navbar = () => {
+
+    const[isNavOpen, setNav] = useState(true);
+
+    const closeNav = () => {
+        setNav(!isNavOpen);
+    }
+
+
+
     return (
         <Container>
             <Wrapper>
@@ -34,10 +58,13 @@ export const Navbar = () => {
                     <PersonIcon src={person} alt='person' />
                 </IconsContainer>
             </Wrapper>
-            <NavbarText>
-                <NavText>These are template packs, we will create packs to be suited specially for you.</NavText>
-                <NavTextIcon src={cancel} alt='cancel'/>
-            </NavbarText>
+            {
+                isNavOpen &&
+                <NavbarText>
+                    <NavText>These are template packs, we will create packs to be suited specially for you.</NavText>
+                    <NavTextIcon onClick={closeNav} src={cancel} alt='cancel'/>
+                </NavbarText>
+            }
         </Container>
 
     )

@@ -18,11 +18,11 @@ const PackNav = (props) => {
             <PackItem id="workfromhome" href="/workfromhome">Work from home</PackItem>
             <PackItem id="gym" href="/gym">Gym</PackItem>
             <PackItem id="owanbe" href="/owanbe">Owanbe</PackItem>
-            <PackItem>Student</PackItem>
-            <PackItem>Corporate</PackItem>
-            <PackItem>Party</PackItem>
-            <PackItem>Raining</PackItem>
-            <PackItem>Date Night</PackItem>
+            <PackItem id="student" href="/student">Student</PackItem>
+            <PackItem id="corporate" href="/corporate">Corporate</PackItem>
+            <PackItem id="partygoer" href="/partygoer">Party</PackItem>
+            <PackItem id="rainingseason" href="/rainingseason">Raining</PackItem>
+            <PackItem id="datenightspecial" href="/datenightspecial">Date Night</PackItem>
         </div>
     )
 }

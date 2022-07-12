@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-export const StudentContainer = styled.div`
+export const PartyGoerContainer = styled.div`
 
 `;
-export const StudentWrapper = styled.div`
+export const PartyGoerWrapper = styled.div`
 display: flex;
 position: relative;
 `;
 
-export const StudentImage = styled.img`
+export const PartyGoerImage = styled.img`
 // width: 57%;
 position: absolute;
 width: 1051px;
@@ -17,7 +17,7 @@ margin-left: 404px;
 margin-top: -4px;
 `;
 
-export const StudentTitle = styled.p`
+export const PartyGoerTitle = styled.p`
 font-family: rische;
 font-weight: 700;
 font-size: 100px;

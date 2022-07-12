@@ -19,7 +19,7 @@ span {
     display: block;
 }
 
-a {
+.PackItem {
     cursor: pointer;
     width: 100%;
     text-decoration: none;

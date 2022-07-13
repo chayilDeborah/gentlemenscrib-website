@@ -1,5 +1,34 @@
 import styled from "styled-components";
 
+export const Socials = styled.div`
+display: flex;
+width: 256px;
+height: 32px;
+justify-content: space-between;
+margin: 0 0 12px 85px;
+
+&:hover {
+  color: #E28F1D;
+}
+
+`;
+
+export const SocialLink = styled.a`
+background-color: rgba(255,255,255,0.2);
+color: #FFFFFF;
+height: 32px;
+width: 32px;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+
+  &:hover {
+    color: #E28F1D;
+  }
+
+`;
 
 export const FooterWrapper = styled.div`
 background-color: #0B0D17;
